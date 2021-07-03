@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/mathsystem.dir/mathsystem.cpp.o -o mathsystem  math_gui/libmath_gui.a /usr/lib/libQt6Widgets.so.6.1.2 /usr/lib/libQt6Gui.so.6.1.2 /usr/lib/libQt6Core.so.6.1.2 -pthread /usr/lib/libGLX.so /usr/lib/libOpenGL.so 

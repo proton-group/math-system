@@ -1,0 +1,7 @@
+/home/programs/math/build/CMakeFiles/rebuild_cache.dir
+/home/programs/math/build/CMakeFiles/edit_cache.dir
+/home/programs/math/build/CMakeFiles/mathsystem.dir
+/home/programs/math/build/math_gui/CMakeFiles/rebuild_cache.dir
+/home/programs/math/build/math_gui/CMakeFiles/edit_cache.dir
+/home/programs/math/build/math_gui/CMakeFiles/math_gui.dir
+/home/programs/math/build/math_gui/CMakeFiles/math_gui_autogen.dir
