@@ -7,13 +7,32 @@
 #include <QPushButton>
 #include <QMainWindow>
 #include <QHBoxLayout>
+#include <QMenuBar>
+#include <fstream>
+#include <iostream>
+#include <QAction>
+#include <QGridLayout>
+#include <QLineEdit>
+class Filemanager : public QMainWindow {
+Q_OBJECT
+public: 
+    Filemanager();
+    void run();
+};
+
+#endif
 
 class Window : public QMainWindow {
+Q_OBJECT
 public:
-  Window();
-  void buttons();
+    Window(QApplication *a);
+    void buttons();
+    void menu();
+public slots:
+    void newfile(bool a);
 private:
-  QPushButton *button;
-  QHBoxLayout *hlayout;
+    Filemanager fm;
+    QApplication *app;
+    QPushButton *button;
+    QHBoxLayout *hlayout;
 };
-#endif
